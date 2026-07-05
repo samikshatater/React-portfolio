@@ -1,0 +1,98 @@
+div {
+  background-color: #0e1526;
+  text-align: center;
+}
+.sam {
+  
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 60px;
+  border: 4px solid #2a3b51;
+  box-shadow: 0 0 300px rgba(96, 165, 250, 0.5);
+  
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+
+
+}
+h1{
+   color: #ffffff;
+   font-size: 60px;
+}
+
+h2 {
+ 
+  text-align: center;
+  color: #d2d5db;
+  font-size: 32px;
+}
+
+
+.about{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.me{
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  line-height: 1.8;
+  font-size: 22px;
+}
+
+hr{
+  /* margin-top: 250px; */
+  font-weight: lighter;
+  visibility: hidden;
+  
+}
+.skill-box{
+  color: #d2d5db;
+  font-size: 2rem;
+}
+
+
+.heading {
+  display: flex;
+  gap: 80px;
+  justify-content: end;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #0f172a;
+  backdrop-filter: blur(10px);
+  
+
+}
+
+.head{
+  font-size: 2rem;
+  color: rgb(145, 128, 106);
+  
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+section{
+  min-height: 100vh;
+  
+}
+
+
+p{
+  font-size: 20px;
+}
+
+
